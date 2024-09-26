@@ -1,0 +1,16 @@
+/*Styling for legal notice page*/
+.legal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 50px;
+    padding-top: 120px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content::after {
+    clear: both;
+}

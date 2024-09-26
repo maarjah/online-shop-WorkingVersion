@@ -1,0 +1,14 @@
+/*Styling for contact web-page*/
+.content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        padding-top: 50px;
+        color: black;
+}
+
+.content::after {
+        clear: both;
+}

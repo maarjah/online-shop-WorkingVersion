@@ -1,0 +1,54 @@
+/* Styling for Navigation Bar*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .navbar::after {
+    content: "";
+    clear: both;
+  }
+  
+  .links {
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #8A6C25;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #8A6C25;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+
+  .shopTitle {
+    color: #8A6C25;
+    font-size: 2rem;
+    width: fit-content;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img.logo {
+    height: 80px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    margin-top: 10px;
+  }
+ 

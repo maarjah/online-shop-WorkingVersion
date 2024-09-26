@@ -1,0 +1,30 @@
+/*Styling for footer and respective links*/
+.footer::before {
+    clear: both;
+}
+
+#footer {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    place-items: center;
+}
+
+#footer .links {
+    text-decoration: none;
+    color: #8A6C25;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-right: 5px;
+    align-items: right;
+    min-height: fit-content;
+    margin-top: auto;
+}

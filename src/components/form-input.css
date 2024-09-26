@@ -1,0 +1,39 @@
+/*Styling for form*/
+#orderBtn {
+    width: 150px;
+    height: 50px;
+    font-weight: 500;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 30px;;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    align-items: center;   
+}
+
+label {
+    text-align: right;
+}
+
+form input {
+    margin: 5px;
+    align-items: center;
+    font-size: small;
+}
+
+form div {
+    text-align: left;
+}
+
+.orderBtnDiv {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
